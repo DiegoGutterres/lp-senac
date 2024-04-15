@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* navbar */
+nav {
+    padding: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    height: 6vh;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+
+.linha_vertical {
+    border-left: 1px solid white;
+}
+
+.text-nav {
+    color: white;
+    font-family: Jost, sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+a {
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+/* sections */
+
+section {
+    display: flex;
+    height: 55vh;
+    flex-direction: column;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: row;
+    padding: 4vh;
+    justify-content: space-between;
+}
+
+.text_introduction {
+    margin-left: 10vh;
+    max-width: 40vw;
+}
+
+
+.under-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 30vw;
+    margin-top: 2vh;
+    padding-left: 3vh;
+}
+
+.text-under-text {
+    font-size: 2vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding-top: 1vh;
+    max-width: 30vh;
+    margin-right: 10vh;
+}
+
+.logo {
+    height: 8vh;
+    margin-left: -3.5vh;
+}
+
+.texto {
+    font-family: "Cabin", sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+    max-width: 400vh;
+}
+
+
+.texto_inicio {
+    font-family: "Jost", sans-serif;
+    font-size: 4vh;
+}
+
+.texto_colorido {
+    color: #0DB628;
+}
+
+.button {
+    font-family: "Inter", sans-serif;
+    background-color: #0DB628;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    font-size: 3vh;
+    margin-top: 45px;
+}
+
+
+
+.section-four {
+    background-color: #141212;
+}
+
+
+
+/* carros */
+.carros img {
+    height: 40vh;
+
+}
+
+.carro-section-one {
+    display: flex;
+    flex-direction: row;    
+    margin-right: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro-branco {
+    height: 50vh;
+    position: absolute;
+}
+
+.circle {
+    height: 50vh;
+    width: 50vh;
+
+    border-radius: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, #1F1E1E 0%, #6F6666 100%);
+}
+
+
+
+/* -------------------------------------------------------------------Segunda Section------------------------------------------------------------------- */
+.section-two {
+    padding: 7vh;
+    height: 70vh;
+    background-color: #141212;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #0DB628;
+}
+
+form.Formulário {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    background-color: #141212;
+    gap: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 23vw;
+    color: #000000;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    width: 24, 5vw;
+    background-color: #0DB628;
+}
+
+.Box {
+    border: 2px solid wheat;
+    border-radius: 15px;
+    border-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+}
+
+.titulo {
+    max-width: 25vw;
+    font-family: cabin;
+    font-size: 36;
+}
+
+.passo-1 h4 {
+    font-size: 3vh;
+}
+
+.passo-1  {
+    
+    background-color: #2A2A2A;
+    font-size: 2vh;
+    height: 13vh;
+    width: 30vw;
+    border-radius:10px;
+    border: 2px solid #5A5A5A;
+}
+
+.passo-2 h4 {
+    font-size: 3vh;
+}
+
+.passo-2  {
+    margin: 3vh;
+    background-color: #2A2A2A;
+    font-size: 2vh;
+    height: 13vh;
+    width: 30vw;
+    border-radius:10px;
+    border: 2px solid #5A5A5A;
+}
+
+.passos {
+    font-family: "Cabin", sans-serif;
+    justify-content: space-between;
+}
