@@ -204,6 +204,55 @@ input {
     font-size: 36;
 }
 
+.lt1 {
+    border-color: #0DB628;
+    width: 19vh;
+    margin-left: 3vh;
+}
+ 
+.passo-1 h4 {
+    font-size: 3vh;
+}
+ 
+.passo-1  {
+    margin: 3vh;
+    background-color: #2A2A2A;
+    font-size: 2vh;
+    height: 13vh;
+    width: 30vw;
+    border-radius:10px;
+    border: 2px solid #5A5A5A;
+}
+ 
+.lt2 {
+    margin-left: 25vh;
+    transform:rotate(20deg);
+    border: 1px dashed;
+    border-color: #0DB628;
+    width: 18vh;
+}
+ 
+.passo-2 h4 {
+    font-size: 3vh;
+}
+ 
+.passo-2  {
+    margin: 3vh;
+    background-color: #2A2A2A;
+    font-size: 2vh;
+    height: 13vh;
+    width: 30vw;
+    border-radius:10px;
+    border: 2px solid #5A5A5A;
+}
+ 
+.passos {
+    font-family: "Cabin", sans-serif;
+    justify-content: space-between;
+}
+
+
+
 .passo-1 h4 {
     font-size: 3vh;
 }
