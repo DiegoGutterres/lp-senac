@@ -313,3 +313,122 @@ input {
     height: 22vh;
 }
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    /* Corpo do documento */
+    body {
+        font-size: 14px;
+    }
+
+    /* Layout da navegação */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    /* Estilo para as seções */
+    section {
+        height: auto; /* Altura automática para acomodar o conteúdo */
+    }
+
+    /* Estilo para a seção 1 */
+    .section-one {
+        flex-direction: column; /* Alterar para coluna */
+        align-items: center;
+        width: 90vw;
+    }
+
+    /* Estilo para a introdução de texto */
+    .text_introduction {
+        margin-left: 0; /* Remover margem à esquerda */
+    }
+
+    /* Ajuste do tamanho dos títulos */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 12px; /* Defina o tamanho da fonte conforme necessário */
+    }
+
+    /* Estilo para os passos na seção dois */
+    .passos {
+        flex-direction: column; /* Alterar para coluna */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .passo{
+        width: fit-content;
+    }
+
+    .lt2{
+        display: none;
+    }
+
+    .text-passo{
+        width: fit-content;
+    }
+
+    .text-passo h4{
+        font-size: 16px;
+    }
+    .text-passo p{
+        font-size: 10px;
+    }
+
+    .circle{
+        height: 25vh;
+        width: 25vh;
+    }
+
+    .button{
+        width: fit-content;
+    }
+
+    span{
+        font-size: 16px;
+
+    }
+
+    img{
+        scale: 50%;
+    }
+
+
+
+    .section-two{
+        display: flex;
+        height: 150vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Estilo para o formulário na seção dois */
+    .Box {
+        width: 90%; /* Redimensionar a largura */
+        max-width: 300px; /* Definir largura máxima */
+    }
+
+    /* Estilo para as caixas na seção três */
+    .boxes {
+        flex-direction: column; /* Alterar para coluna */
+        align-items: center;
+    }
+
+    .Formulário{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Formulário input{
+        width: 50vw;
+
+    }
+    /* Estilo para os carros na seção três */
+    .carros {
+        flex-direction: column; /* Alterar para coluna */
+        align-items: center;
+    }
+}

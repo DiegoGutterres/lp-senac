@@ -1,5 +1,6 @@
 let button = document.getElementById("handleSubmit");
 
+
 button.onclick = async function(event) {
     event.preventDefault();
     
@@ -25,3 +26,24 @@ button.onclick = async function(event) {
     //     alert('nao')
     // }
 }
+
+let queroMaisInfo = document.getElementById('goto');
+
+queroMaisInfo.addEventListener('click', () => {
+    let destino = document.getElementById('destino')
+    destino.scrollIntoView({
+        behavior: 'smooth'
+    })
+
+});
+
+let queroMaisInfo2 = document.getElementById('goto2');
+
+queroMaisInfo2.addEventListener('click', () => {
+    let destino2 = document.getElementById('destino2')
+    destino2.scrollIntoView({
+        behavior: 'smooth'
+    })
+
+});
+
