@@ -1,6 +1,5 @@
 let button = document.getElementById("handleSubmit");
 
-
 button.onclick = async function(event) {
     event.preventDefault();
     

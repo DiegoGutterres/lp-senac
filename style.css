@@ -8,6 +8,9 @@ body {
     background-color: black;
 }
 
+button{
+    cursor: pointer;
+}
 
 /* navbar */
 nav {
@@ -120,12 +123,6 @@ section {
 
 
 
-/* carros */
-.carros img {
-    height: 40vh;
-
-}
-
 .carro-section-one {
     display: flex;
     flex-direction: row;    
@@ -157,7 +154,6 @@ section {
     background-color: #141212;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid #0DB628;
 }
 
 form.Formulário {
@@ -183,7 +179,10 @@ input {
     border-radius: 10px;
     padding: 14px;
     width: 24, 5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vh;
     background-color: #0DB628;
+    
 }
 
 .Box {
@@ -204,17 +203,17 @@ input {
     font-size: 36;
 }
 
+
 .lt1 {
     border-color: #0DB628;
     width: 19vh;
     margin-left: 3vh;
 }
- 
-.passo-1 h4 {
-    font-size: 3vh;
-}
- 
-.passo-1  {
+
+.passo{
+    display: flex;
+    align-items: center;
+    padding: 3vh;
     margin: 3vh;
     background-color: #2A2A2A;
     font-size: 2vh;
@@ -223,7 +222,23 @@ input {
     border-radius:10px;
     border: 2px solid #5A5A5A;
 }
- 
+
+.passo h4 {
+    font-size: 3vh;
+}
+
+.passo img {
+    height: 12vh;
+}
+
+.text-passo{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .lt2 {
     margin-left: 25vh;
     transform:rotate(20deg);
@@ -231,57 +246,70 @@ input {
     border-color: #0DB628;
     width: 18vh;
 }
- 
-.passo-2 h4 {
-    font-size: 3vh;
-}
- 
-.passo-2  {
-    margin: 3vh;
-    background-color: #2A2A2A;
-    font-size: 2vh;
-    height: 13vh;
-    width: 30vw;
-    border-radius:10px;
-    border: 2px solid #5A5A5A;
-}
- 
-.passos {
-    font-family: "Cabin", sans-serif;
-    justify-content: space-between;
-}
-
-
-
-.passo-1 h4 {
-    font-size: 3vh;
-}
-
-.passo-1  {
-    
-    background-color: #2A2A2A;
-    font-size: 2vh;
-    height: 13vh;
-    width: 30vw;
-    border-radius:10px;
-    border: 2px solid #5A5A5A;
-}
-
-.passo-2 h4 {
-    font-size: 3vh;
-}
-
-.passo-2  {
-    margin: 3vh;
-    background-color: #2A2A2A;
-    font-size: 2vh;
-    height: 13vh;
-    width: 30vw;
-    border-radius:10px;
-    border: 2px solid #5A5A5A;
-}
 
 .passos {
     font-family: "Cabin", sans-serif;
     justify-content: space-between;
 }
+/* ---------------- section three------------- */
+
+
+.section-three{
+    display: flex;
+    align-items: center;
+}
+
+.section-three h1 {
+    padding: 5vh;
+    font-family: 'Cabin', sans-serif; 
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2A2A;
+    font-size: 2vh;
+    margin: 2vh;
+    height: 12vh;
+    width: 18vw;
+    padding: 3vh;
+    border-radius:10px;
+    border: 2px solid #5A5A5A;
+}
+
+.box-three h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.box-three h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #0DB628;
+}
+
+/* carros */
+.carros{
+    display: flex;
+    align-items: center;
+}
+
+.carro1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.carro1 img {
+    position: absolute;
+    height: 22vh;
+}
+

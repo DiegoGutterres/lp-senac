@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -30,8 +32,8 @@
             </div>
 
             <div class="text-nav">
-                <a href="#">benefícios</a>
-                <a href="#">serviços</a>
+                <a id="goto" href="#">benefícios</a>
+                <a id="goto" href="#">serviços</a>
             </div>
         </nav>
     </header>
@@ -46,7 +48,7 @@
                         <span>Liberte-se das</span>
                         <span class="texto_colorido">Limitações e Acelere em Direção</span>
                         <span> a sua Próxima Aventura com SUBERS</span>
-                        <button class="button">QUERO MAIS INFORMAÇÕES</button>
+                        <button id="goto" class="button">QUERO MAIS INFORMAÇÕES</button>
                     </div>
                     
                     <div class="under-text">
@@ -82,24 +84,32 @@
  
                 <hr class="lt1">
  
-                <div class="passo-1">
+                <div class="passo">
                     <img  class="terms" src="assets/Terms and Conditions.png" alt="termos">
-                    <h4>Preencha o formulário</h4>
-                    <p>Envie suas informações de contato. Todos os seus dados estarão seguros, vamos cuidar bem deles.</p>
+
+                    <div class="text-passo">
+                        <h4>Preencha o formulário</h4>
+                        <p>Envie suas informações de contato. Todos os seus dados estarão seguros, vamos cuidar bem deles.</p>
+                        
+                    </div>
                 </div>
  
                 <hr class="lt2">
    
-                <div class="passo-2">
+                <div class="passo">
                     <img class="phone" src="assets/Phone.png" alt="phone">
-                    <h4>Receba uma ligação</h4>
-                    <p>Em até 12 horas, um dos nosso especialistas entrará em contato para recomendar o melhor carro para
-                        você.</p>
+
+                    <div class="text-passo">
+
+                        <h4>Receba uma ligação</h4>
+                        <p>Em até 12 horas, um dos nosso especialistas entrará em contato para recomendar o melhor carro para
+                            você.</p>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="Box">
+            <div id='destino'class="Box">
                 <form class="Formulário">
                     <input id="name"  type="text" placeholder="Qual o seu nome?">
                     <input id="email" type="email" placeholder="Email">
@@ -113,42 +123,51 @@
         </section>
 
         <section class="section-three">
-            <h2>Oferecemos do melhor, para os melhores</h2>
+            <h1>Oferecemos do melhor, para os melhores</h1>
 
-            <div class="simples">
-                <h2>Simples</h2>
-                <h3>São apenas alguns passos.</h3>
-            </div>
-
-            <div class="rapido">
-                <h2>Rápido</h2>
-                <h3>Em menos de 12 horas, sem enrolação.</h3>
-            </div>
-
-            <div class="barato">
-                <h2>Barato</h2>
-                <h3>Os melhores preços da américa latina.</h3>
+            <div class="boxes">
+    
+                <div class="box-three">
+                    <h2>Simples</h2>
+                    <h3>São apenas alguns passos.</h3>
+                </div>
+    
+                <div class="box-three">
+                    <h2>Rápido</h2>
+                    <h3>Em menos de 12 horas, sem enrolação.</h3>
+                </div>
+    
+                <div class="box-three">
+                    <h2>Barato</h2>
+                    <h3>Os melhores preços da américa latina.</h3>
+                </div>
             </div>
 
             <div class="carros">
-                <img src="/assets/carro preto.png" alt="">
-                <img src="/assets/carro vermelho.png" alt="">
-                <button>Quero o carro ideal</button>
-            </div>
+                <div class="carro1">
+                    <div class="circle"></div>
+                    <img src="/assets/carro vermelho.png" alt="">
+                </div>
+
+                <button id="goto" class="button">Quero o carro ideal</button>
+
+                <div class="carro1">
+
+                    <div class="circle"></div>
+                    <img style="height:30vh;" src="/assets/carro preto.png" alt="">
+                </div>
+            </div> 
 
         </section>
 
-        <section class="section-four">
-            <h2>A Suber conta com a companhia das melhores empresas para oferecer a melhor para você.</h2>
 
-        </section>
 
     </main>
 
     <footer>
 
     </footer>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
